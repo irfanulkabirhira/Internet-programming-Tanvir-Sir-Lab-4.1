@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS student_portal_lab;
+USE student_portal_lab;
+
+CREATE TABLE IF NOT EXISTS students (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    student_id VARCHAR(30) NOT NULL UNIQUE,
+    department VARCHAR(60) NOT NULL,
+    email VARCHAR(120) NOT NULL UNIQUE,
+    mobile VARCHAR(20) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
