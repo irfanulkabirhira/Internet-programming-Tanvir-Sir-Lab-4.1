@@ -19,3 +19,67 @@ CREATE TABLE student_registration (
     
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
+Hello , i have Internet of programming Lab Exam today : --
+i am in the exam hall already : --- and as Database i am using Xamp 
+--------------------------------------
+i have to make a dashboarad where i'll have 6 column user_id ( primary key ) , full_name , Roll (Unique) , Phone (Unique) , father_ name , mother_name , division , gender : ---
+======================================
+
+i will have dashboard_index.php ,  login_index.php, login_insert.php (as backend ) , Register_index.php , Register_insert.php (as backend ) , delete_index.php , delete_success.php, logout_index.php , update_profile_index.php , update_profile_insert.php (as backend ) , update_success.php 
+and the CSS should be : -- Style_dashboard.css , Style_login.css ,  Style_Register.css , Style_logout.css , style_delete.css , update_profile.css
+=======================
+
+dashboard_index.php:
+------------------------
+
+
+Style_dashboard.css  : 
+----------------------
+
+login_index.php : 
+--------------------
+
+login_insert.php:
+--------------------
+
+Style_login.css : 
+-------------------
+
+Register_index.php : 
+---------------------
+
+Register_insert.php : 
+----------------------
+
+Style_Register.css : 
+-------------------
+
+delete_index.php : 
+-------------------
+
+delete_success.php : 
+----------------------
+
+style_delete.css  : 
+-------------------
+
+update_profile_index.php : 
+--------------------------
+
+ update_profile_insert.php : 
+----------------------------
+
+update_success.php : 
+------------------------
+
+update_profile.css : 
+-----------------------
+
+
+
+
+
+
